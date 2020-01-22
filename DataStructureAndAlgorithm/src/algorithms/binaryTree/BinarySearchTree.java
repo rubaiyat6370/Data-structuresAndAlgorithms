@@ -1,6 +1,6 @@
 package algorithms.binaryTree;
 
-public class BinaryTree {
+public class BinarySearchTree {
 	TreeNode root = null;
 	
 	public void insertNode(int data) {

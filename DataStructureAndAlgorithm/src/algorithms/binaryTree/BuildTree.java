@@ -3,7 +3,7 @@ package algorithms.binaryTree;
 public class BuildTree {
 
 	public static void main(String[] args) {
-		BinaryTree bt = new BinaryTree();
+		BinarySearchTree bt = new BinarySearchTree();
 		bt.insertNode(20);
 		bt.insertNode(2);
 		bt.insertNode(10);
