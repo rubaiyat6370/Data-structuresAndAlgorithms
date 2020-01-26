@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package recursion.telephoneDigitWordCombination;
+
+/**
+ * @author Rubaiyat
+ *
+ */
+public class TelephoneDigitWord {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

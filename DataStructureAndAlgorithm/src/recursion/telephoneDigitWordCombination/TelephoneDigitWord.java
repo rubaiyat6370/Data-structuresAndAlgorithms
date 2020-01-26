@@ -16,7 +16,7 @@ public class TelephoneDigitWord {
 	private String[] list = { "ABC", "DEF", "GHI", "JKL", "MNO", "PRS", "TUV", "WXY"};
 	public static void main(String[] args) {
 		TelephoneDigitWord tg = new TelephoneDigitWord();
-		tg.DigitToWord("6139297719");
+		tg.DigitToWord("8662665");
 
 	}
 	
@@ -35,7 +35,7 @@ public class TelephoneDigitWord {
 			if(input.charAt(i)!='1' && input.charAt(i)!='0') {
 				for(int j=0;j<3;j++) {
 					int pos = input.charAt(i) - '0';
-					sb.append(list[pos-2].charAt(j));
+					sb.append(list[pos-2].charAt(j)); //the list for char 2 starts from 0
 					combination(i+1,sb);
 					sb.setLength(sb.length()-1);
 				}
