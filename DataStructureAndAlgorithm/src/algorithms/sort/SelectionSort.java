@@ -8,6 +8,11 @@ import java.util.Arrays;
 // it is an in place sorting algorithm 
 // because it does not need any extra memory to perform sorting
 // time complexity is O(n2)
+
+//“One advantage that the original unstable selection sort 
+//had over many other sort algorithms is that the total 
+//number of moves (swaps) is O( n)”
+
 public class SelectionSort {
 	
 	// Unstable selection sort
