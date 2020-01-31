@@ -42,7 +42,6 @@ public class QuickSort {
 				swap(end,i,arr);
 				break;
 			}
-			
 		}
 		
 		// if i > j then

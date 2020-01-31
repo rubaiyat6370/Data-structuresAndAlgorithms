@@ -12,6 +12,8 @@ import java.util.Arrays;
 //“One advantage that the original unstable selection sort 
 //had over many other sort algorithms is that the total 
 //number of moves (swaps) is O( n)”
+// needs only O(n) swaps
+// best for the system where swaping is costly
 
 public class SelectionSort {
 	
@@ -43,7 +45,8 @@ public class SelectionSort {
 	private void insert( int[] data, int start, int minIndex ){
 		if( minIndex > start ){
 			int tmp = data[minIndex];
-			System.arraycopy( data, start, data, start +1 , minIndex - start); data[start] = tmp;
+			System.arraycopy( data, start, data, start +1 , minIndex - start); 
+			data[start] = tmp;
 		} 
 	}
 	
